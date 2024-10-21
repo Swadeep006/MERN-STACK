@@ -5,7 +5,7 @@ const workroutes = require("./routes/workouts");
 //express app
 const app = express();
 
-//middleware
+//middlewares
 app.use(express.json())
 
 app.use((req, res, next) => {
